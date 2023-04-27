@@ -1,11 +1,21 @@
 import { useState } from 'react';
+import ProductList from './components/productList';
+
 
 function App(){
     return(
-        <h1>Pétalos de fiesta</h1>
+       
+        <div>
+             <h1>petalos</h1>
+             <div>
+             <ProductList />
+             </div>
+
+        </div>
+      
     )
 
 }
 
 
-export default App;
+export default App
