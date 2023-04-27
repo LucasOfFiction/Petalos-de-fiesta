@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rosa",
+      "price": 300,
+      "img": "http://localhost:3000/images/rosa.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tulipan",
+      "price": 100,
+      "img": "http://localhost:3000/images/tulipan.jpg" 
+    },
+    {
+      "id": 3,
+      "name": "Azucena Araña",
+      "price": 150,
+      "img":"http://localhost:3000/images/azucena-araña.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Camalias",
+      "price": 250,
+      "img": "http://localhost:3000/images/camelias.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Lirios",
+      "price": 200,
+      "img": "http://localhost:3000/images/lirios.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Azucena",
+      "price": 200,
+      "img": "http://localhost:3000/images/azucena.jpg"
+    }
+  ],
+  "cart": []
+}
