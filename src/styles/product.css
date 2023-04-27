@@ -1,0 +1,35 @@
+.product_div{
+    display: flex;
+    justify-content: space-around;
+    border-style: groove;
+    border-width: 5px;
+    border-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.product_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.product{
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 3px;
+    margin: 10px;
+}
+
+.product_btn{
+    background-color: red;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin: 2px;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.product_btn:hover{
+    background-color: #4CAF50;
+    color: white;
+}
