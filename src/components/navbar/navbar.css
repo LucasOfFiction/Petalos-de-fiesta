@@ -1,0 +1,37 @@
+body{
+margin: 0;
+padding: 0;
+background-color: white;
+}
+.nav{
+    margin: 0;
+}
+.contenedor-icono svg {
+    width:50px;
+}
+#logo{
+    width:110px;
+    height: auto;
+    margin-left: 55px;
+}
+.ml-1{
+    margin-left: 225px;
+}
+#icono{
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 30px;
+    border: 1px solid #212529;
+    font-size: 30px;
+    background: #212529;
+    color:white;
+}
+.li{
+    list-style: none;
+}
+.ul{
+    list-style: none;
+}
+
+
