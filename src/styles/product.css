@@ -6,6 +6,8 @@
     border-color: red;
     text-align: center;
     padding: 10px;
+    flex-wrap: wrap;
+    min-width: 250;
 }
 
 .product_title {
@@ -27,9 +29,32 @@
     margin: 2px;
     transition-duration: 0.4s;
     color: white;
+    margin-bottom: 20px;
 }
 
 .product_btn:hover{
     background-color: #4CAF50;
     color: white;
+}
+
+.product_img {
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+.product_box {
+    background-color: beige;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+.product_box:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+.product_price {
+    font-size: 25px;
+    color: coral;
+    font-style: oblique;
 }
