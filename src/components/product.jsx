@@ -6,10 +6,10 @@ const Product = ({data, addToCart}) => {
 
     return (
 
-        <div>
-            <img src={img} alt={name} width="250px" height='200px' />
+        <div className='product_box' >
+            <img className='product_img' src={img} alt={name} width="250px" height='200px' />
             <h3> {name} </h3>
-            <h4> ${price} </h4>
+            <h4 className='product_price' > ${price} </h4>
             <button className='product_btn' onClick={() => addToCart(id)}>Agregar al Carro</button>
         </div>
     );
