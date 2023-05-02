@@ -21,7 +21,7 @@ export default function NavBar(){
 
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-                                {/*LISTA DE ANCLAS Y DRPDOWNS DEL LADO DERECHO DE LA PÁGINA */}
+                                {/*LISTA DE ANCLAS Y DRPDOWNS DEL LADO IZQUIERDO DE LA PÁGINA */}
                                 <ul id='ul1' className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li id='li1' className=" nav-item">
                                         <a className="nav-link active" aria-current="page" href="#">Productos</a>
@@ -48,7 +48,7 @@ export default function NavBar(){
                                     </li>
 
                                 </ul>
-                                {/*LISTA DESORDENADA DE ITEMS PARA COLOCARLOS A LA IZQUIERDA DE LA PÁGINA */}
+                                {/*LISTA DESORDENADA DE ITEMS PARA COLOCARLOS A LA DERECHO DE LA PÁGINA */}
                                 <ul id='ul' className="list-unstyled d-flex navbar-nav-outline-success  mb-2 mb-lg-0">
                                     <li id='li' className='p-2 nav-item'>
                                         <button id='redondo' className="redondo">
