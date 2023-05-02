@@ -4,7 +4,7 @@ import Slider from './components/Slider';
 
 
 function App(){
-    const mockImagenes = [
+    const mockImagenes = [ //imagenes de prueba 
 		'https://picsum.photos/id/1020/400',
 		'https://picsum.photos/id/1025/400',
 		'https://picsum.photos/id/1010/400',
