@@ -1,0 +1,17 @@
+.link {
+    font-family: fantasy;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link ul a:hover {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+
+

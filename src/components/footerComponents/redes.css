@@ -1,0 +1,23 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+.redes {
+    display: block;
+    justify-content:baseline;
+    font-family: "cursive";
+    color:blue;
+    }
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    }
+
+.icon a {
+    color: brown;
+}
