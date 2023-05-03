@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import whychoose1 from './components/whychoose';
 
 function App(){
     return(
-        <h1>Pétalos de fiesta</h1>
+        <>
+            <whychoose1 />
+        </>
     )
-
 }
 
 
