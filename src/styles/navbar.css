@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:gray !important;
+}
+#Nav1{
+    background-color: #fff !important;
+}
+#redondo{
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50% !important;
+    font-size: medium;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+}
+#ul1{
+    margin-left: 225px;
+    
+}
+#li1{
+    padding-right: 48px;
+}
