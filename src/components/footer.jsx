@@ -13,7 +13,7 @@ export default function Footer () {
             <LINKS/>
             <div className= "rights">
                 <p>Todos los derechos reservados por copyright</p>
-                <p>Desarollado por *Los Power Rangers*</p>
+                <p>Desarollado por *Nombre del grupooo*</p>
             </div>
              
         </div>
