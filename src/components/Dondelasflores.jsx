@@ -6,7 +6,7 @@ const Dndlasflores = () => {
 return (
 <div className="container">
     <Container>
-        <h2 className='title'>De donde sacamos las flores</h2>
+        <h2 className='title'>De donde sacamos <div className='title2'>las flores</div></h2>
         <Row>
             <Col>
                 <p className='texto'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
