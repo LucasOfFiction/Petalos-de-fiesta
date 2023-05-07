@@ -1,17 +1,16 @@
-import { useState } from 'react';
-import Whychoose1 from './components/whychoose';
+import Aboutus from './components/AboutUs.jsx';
+import Dedndlasflores from './components/Dondelasflores.jsx';
+
 
 function App(){
-    return(
-        <> 
-            <div>
-                <Whychoose1 />
-                <h2>hola</h2>
-            </div>
-            
-        </>
-    )
-}
+    return (
+        
+        <div>
+            <Aboutus />
+            <Dedndlasflores />
+        </div>
 
+    ); 
+};
 
 export default App;
