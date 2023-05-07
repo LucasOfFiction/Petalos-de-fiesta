@@ -1,0 +1,14 @@
+.texto{
+    font-size: 50px;
+}
+.conteiner{
+    display: flex;
+
+
+}
+.image{
+    width: 50%;
+    height: 100px;
+    float: right;
+
+}
