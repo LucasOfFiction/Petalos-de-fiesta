@@ -1,19 +1,28 @@
 import '../styles/dndlasflores.css';
 import  React from 'react';
-import flores from '../images/tulipanesreact.jpg'
+import { Container, Row, Col } from 'react-bootstrap';
+import flor from '../images/tulipan1.jpg'
 const Dndlasflores = () => {
 return (
-    <div className="container">
-        <div>
-            <h2 className='titulo'>De donde sacamos las flores?</h2>
-            <p className='texto'>hola buenas tardes</p>
-
-        </div>
-        <div className="image">
-            <img src={flores}></img>
-
-        </div>
-    </div>
+<div className="container">
+    <Container>
+        <h2 className='title'>De donde sacamos las flores</h2>
+        <Row>
+            <Col>
+                <p className='texto'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul className='list'>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                </ul>
+            </Col>
+            <Col>
+            <img src={flor} alt="tulipan" />
+            </Col>
+            </Row>
+    </Container>
+</div>
 
 
 
