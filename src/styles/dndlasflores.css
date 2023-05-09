@@ -1,0 +1,23 @@
+.title{
+    font-size: 65px;
+    text-align: center;
+}
+.img {
+    width: 100%;
+    height: 100%;
+
+}
+.texto{
+    font-size: 25px;
+
+}
+.list{
+    font-size: 22px;
+}
+.title2{
+    color: rgb(44, 211, 175);
+    display: inline-block;
+}
+*{
+    font-family: 'Cormorant', serif;
+}
