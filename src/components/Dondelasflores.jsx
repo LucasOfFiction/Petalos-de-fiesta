@@ -1,7 +1,7 @@
 import '../styles/dndlasflores.css';
 import  React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import flor from '../images/tulipan1.jpg'
+import flor from '../assets/images/tulipan.jpg'
 const Dndlasflores = () => {
 return (
 <div className="container">
