@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 import Footer from "./components/footer"
 import ProductList from './components/productList';
 import Slider from './components/Slider';
+import Navbar from './components/NavBar';
 
 
 function App(){
@@ -20,6 +21,7 @@ function App(){
 
         <div>
             <h1>Pétalos de fiesta</h1>
+            <Navbar />
             <ProductList />
             <Aboutus />
             <Dedndlasflores />
