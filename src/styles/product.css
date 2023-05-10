@@ -1,11 +1,8 @@
 .product_div{
     display: flex;
-    justify-content: space-around;
-    border-style: groove;
-    border-width: 5px;
-    border-color: red;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     flex-wrap: wrap;
     min-width: 250;
 }
@@ -55,6 +52,12 @@
 
 .product_price {
     font-size: 25px;
-    color: coral;
+    color:rgb(44, 211, 175);
     font-style: oblique;
+}
+
+.old_price {
+    font-size: 18px;
+    color: grey;
+    text-decoration: line-through;
 }
