@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import Aboutus from './components/AboutUs.jsx';
+import Dedndlasflores from './components/Dondelasflores.jsx';
 import React from "react";
 import ReactDOM from "react-dom";
 import Footer from "./components/footer"
@@ -19,6 +20,9 @@ function App(){
 
         <div>
             <h1>Pétalos de fiesta</h1>
+            <ProductList />
+            <Aboutus />
+            <Dedndlasflores />
             <Slider imagenes={mockImagenes} />;
             <Footer/>
 
