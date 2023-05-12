@@ -19,17 +19,22 @@
 	opacity: 1;
 }
  .btn{
-    background-color: aqua;
+    background-color: rgb(44, 211, 175);
  }
 
  .btn2{
-    background-color: aqua;
+    background-color:  rgb(44, 211, 175);
 
  }
  .ig{
-    color: red;
+    color: rgb(44, 211, 175);
     font-size: 30px;
-    margin-bottom: 550px;
+	position: relative;
+	bottom: 159px;
+	left: 300px;
    
  }
-
+.fotos{
+	width: 350px;
+	height: 250px;
+}

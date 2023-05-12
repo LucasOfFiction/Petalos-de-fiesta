@@ -30,7 +30,7 @@ function Slider({ imagenes }) {
 								: estilos.slide
 						}>
 						{imagenActual === index && (
-							<img key={index} src={imagen} alt="imagen" />
+							<img className={estilos.fotos} key={index} src={imagen} alt="imagen" />
 						)}
 					</div>
 				);

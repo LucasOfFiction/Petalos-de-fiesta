@@ -4,15 +4,20 @@ import ReactDOM from "react-dom";
 import Footer from "./components/footer"
 import ProductList from './components/productList';
 import Slider from './components/Slider';
+import Fotos from '../public/images/azucena.jpg';
+import Fotos2 from '../public/images/camelias.jpg';
+import Fotos3 from '../public/images/rosa.jpg';
+import Fotos4 from '../public/images/tulipan.jpg';
+import Fotos5 from '../public/images/lirios.jpg';
 
 
 function App(){
-    const mockImagenes = [ //imagenes de prueba 
-		'https://picsum.photos/id/1020/400',
-		'https://picsum.photos/id/1025/400',
-		'https://picsum.photos/id/1010/400',
-        'https://picsum.photos/id/1011/400',
-        'https://picsum.photos/id/1012/400',
+    const mockImagenes = [  
+		Fotos,
+		Fotos2,
+		Fotos3,
+        Fotos4,
+        Fotos5,
 	];
 
     return(
@@ -21,6 +26,7 @@ function App(){
             <h1>Pétalos de fiesta</h1>
             <Slider imagenes={mockImagenes} />;
             <Footer/>
+            
 
         </div>
         )
