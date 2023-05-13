@@ -13,6 +13,7 @@
 	height: auto;
 	opacity: 0;
 	transition: opacity 0.75s ease-in-out;
+	display: flex;
 }
 
 .slide.active {
@@ -20,10 +21,12 @@
 }
  .btn{
     background-color: rgb(44, 211, 175);
+	display: flex;
  }
 
  .btn2{
     background-color:  rgb(44, 211, 175);
+	display: flex;
 
  }
  .ig{
@@ -32,9 +35,11 @@
 	position: relative;
 	bottom: 159px;
 	left: 300px;
+	display: flex;
    
  }
 .fotos{
 	width: 350px;
 	height: 250px;
+	display: flex;
 }

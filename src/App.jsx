@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import Aboutus from './components/AboutUs.jsx';
+import Dedndlasflores from './components/Dondelasflores.jsx';
 import React from "react";
 import ReactDOM from "react-dom";
 import Footer from "./components/footer"
@@ -9,6 +10,9 @@ import Fotos2 from '../public/images/camelias.jpg';
 import Fotos3 from '../public/images/rosa.jpg';
 import Fotos4 from '../public/images/tulipan.jpg';
 import Fotos5 from '../public/images/lirios.jpg';
+
+import Navbar from './components/NavBar';
+
 
 
 function App(){
@@ -24,6 +28,10 @@ function App(){
 
         <div>
             <h1>Pétalos de fiesta</h1>
+            <Navbar />
+            <ProductList />
+            <Aboutus />
+            <Dedndlasflores />
             <Slider imagenes={mockImagenes} />;
             <Footer/>
             
