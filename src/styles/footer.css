@@ -1,4 +1,4 @@
-.bg-image {
+/* .bg-image {
     background-image: url("/public/images/footer.jpg"), linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     background-size: cover;
     height: 800px;
@@ -9,4 +9,36 @@
     color:blueviolet;
     text-align: center;
 }
+ */
+
+
+/* CSS de footer2 (opcion 2) */
+
+
+footer {
+    background-image: url("/public/images/rosasf.png"), linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-size: cover;
+   }
+
+.redes {
+    color:rgb(244, 30, 30);
+ }
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover {
+    padding: 2px;
+}
+
+@media (max-width: 767px) {
+    .links {
+      color: rgb(255, 255, 255);
+      }
+    .derechos {
+      color: rgb(255, 255, 255);   
+    }
+
+  }
 

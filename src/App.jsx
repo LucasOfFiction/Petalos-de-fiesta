@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Footer from "./components/footer"
 import ProductList from './components/productList';
 import Slider from './components/Slider';
+import Footer2 from './components/footer2';
 
 
 function App(){
@@ -20,7 +21,8 @@ function App(){
         <div>
             <h1>Pétalos de fiesta</h1>
             <Slider imagenes={mockImagenes} />;
-            <Footer/>
+            <Footer2/>
+
 
         </div>
         )
