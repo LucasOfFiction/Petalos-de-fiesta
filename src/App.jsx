@@ -2,7 +2,7 @@ import Aboutus from './components/AboutUs.jsx';
 import Dedndlasflores from './components/Dondelasflores.jsx';
 import React from "react";
 import ReactDOM from "react-dom";
-import Footer from "./components/footer"
+import Footer2 from "./components/footer2"
 import ProductList from './components/productList';
 import Slider from './components/Slider';
 import Fotos from '../public/images/azucena.jpg';
@@ -33,7 +33,7 @@ function App(){
             <Aboutus />
             <Dedndlasflores />
             <Slider imagenes={mockImagenes} />;
-            <Footer/>
+            <Footer2/> 
 
         </div>
         )
