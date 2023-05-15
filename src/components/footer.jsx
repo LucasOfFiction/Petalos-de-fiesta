@@ -1,6 +1,6 @@
 import React from "react";
 import REDES from "./footerComponents/redes";
-import "../components/footer.css";
+import "../styles/footer.css";
 import LINKS from "./footerComponents/links";
 
 
