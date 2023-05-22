@@ -7,6 +7,7 @@ const CardsDetails = ({data, deleteFromCart}) => {
 
     let {id, name, price, img, quantity} = data;
 
+
     return(
         <>
             <div className="container" width="24rem">
@@ -29,8 +30,7 @@ const CardsDetails = ({data, deleteFromCart}) => {
                                     </td>
 
                                     <td>
-{/*                                        <p><strong>Rating :</strong> <span style={{background:"green",color:"#fff",padding:"2px 5px",borderRadius:"5px"}}>4.5 ★	</span></p>
-*/}
+{/*                                        <p><strong>Rating :</strong> <span style={{background:"green",color:"#fff",padding:"2px 5px",borderRadius:"5px"}}>4.5 ★	</span></p>*/}
                                         <button className='btn btn-outline-dark' onClick={() => deleteFromCart(id)}>Eliminar uno</button>
 
                                         <button className='btn btn-outline-dark' onClick={() => deleteFromCart(id, true)}>Eliminar todos</button>

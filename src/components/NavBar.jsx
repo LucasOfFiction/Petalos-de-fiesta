@@ -1,17 +1,15 @@
 import react, {useState} from 'react';
-import { useSelector} from 'react-redux';
 import { useContext } from 'react';
 import { Nav } from 'react-bootstrap';
 import DropdownMenu from 'react-bootstrap/esm/DropdownMenu';
-import logo from '/public/images/logo.png';
-import style from '/src/styles/navbar.css';
+import logo from '../../public/images/logo.png';
+import style from '../styles/navbar.css';
 import Badge from '@mui/material/Badge';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useDispatch } from 'react-redux';
 import Table from 'react-bootstrap/esm/Table';
 import CartContext from './CartContext';
-import DeleteIcon from '@mui/icons-material/Delete';
 import DropdownCart from './DropdownCart';
 
 

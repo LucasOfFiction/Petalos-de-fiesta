@@ -1,5 +1,5 @@
-import Aboutus from './components/AboutUs.jsx';
 import Dedndlasflores from './components/Dondelasflores.jsx';
+import Aboutus from './components/AboutUs.jsx';
 import React from "react";
 import ReactDOM from "react-dom";
 import Footer2 from "./components/footer2"
@@ -28,8 +28,13 @@ function App(){
 
         <div>
             <h1>Pétalos de fiesta</h1>
-            <Navbar />
-            <ProductList />
+            <ProductList>
+                <Navbar />
+                <br />
+                <br />
+                <br />
+                <br />
+            </ProductList>
             <Aboutus />
             <Dedndlasflores />
             <Slider imagenes={mockImagenes} />;
