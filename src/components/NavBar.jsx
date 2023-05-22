@@ -198,7 +198,9 @@ export default function NavBar(){
                                     }
                                 </tbody>
                             </Table>*/}
-
+                            <i  className='fas fa-close smallclose'onClick={handleClose}
+                                style={{position:"absolute",top:2,right:20,fontSize:23,cursor:"pointer"}} >
+                            </i>
                             <DropdownCart></DropdownCart>
                         </div>:
                             
