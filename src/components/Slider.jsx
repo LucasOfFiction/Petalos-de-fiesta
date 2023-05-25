@@ -18,25 +18,38 @@ function Slider({ imagenes }) {
 	};
 
 	return (
+		
 		<div className={estilos.container}>
-            <h1 className={estilos.ig}>@petalosdefiesta</h1>
+            
+			
+			
 			<button className={estilos.btn2} onClick={anteriorImagen}>←</button>
 			{imagenes.map((imagen, index) => {
 				return (
-					<div
+					<div 
 						className={
 							imagenActual === index
 								? `${estilos.slide} ${estilos.active}`
 								: estilos.slide
-						}>
-						{imagenActual === index && (
+						} > 
+						{imagenActual === index && ( 
+							
 							<img className={estilos.fotos} key={index} src={imagen} alt="imagen" />
+							
+							
 						)}
+						
 					</div>
+					
+
 				);
 			})}
 			<button className={estilos.btn} onClick={siguienteImagen}>→</button>
+			
 		</div>
+		
+		
+		
 	);
 }
 
