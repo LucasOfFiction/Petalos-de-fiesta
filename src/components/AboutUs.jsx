@@ -20,28 +20,28 @@ const Aboutus = () => {
       <Row>
         <Col>
           <BsGlobeAmericas className="icon" />
-          <h4>lo4alizaciones por todo el pais</h4>
-          <p>persona que se dedica a la imprenta desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto d</p>
+          <h4>estamos en todo el pais</h4>
+          <p>Bienvenidos a nuestra página web, donde encontrarás la florería más encantadora y diversa de todo el país. Nos enorgullece anunciar que contamos con sucursales estratégicamente ubicadas en diferentes ciudades, permitiéndonos llevar nuestra pasión por las flores a cada rincón de esta hermosa nación.</p>
         </Col>
         <Col>
           <TbPackages className="icon" />
           <h4>compras por mayor</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda minima aspernatur facere velit, vero quo commodi, deserunt dolor modi nisi autem dolorum, qui corrupti maiores sint quae architecto sunt illum.</p>
+          <p>brindamos increíbles ofertas al comprar al por mayor. Sabemos lo importante que es para muchos de nuestros clientes contar con flores frescas y de calidad para sus eventos especiales, decoración de espacios o simplemente para alegrar el día a día.</p>
         </Col>
         <Col>
           <CgBee className="icon" />
           <h4>apoyamos a las abejas</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque explicabo cupiditate reprehenderit eaque nesciunt, iusto veniam optio hic error officia cumque quibusdam ullam magni dicta, dolor quas delectus fuga ex!</p>
+          <p>En nuestra florería, nos enorgullece no solo brindarte hermosas flores, sino también ser defensores de las abejas y su importante rol en nuestro ecosistema. Reconocemos la vital labor de estos polinizadores incansables y nos comprometemos a apoyar su bienestar. </p>
         </Col>
         <Col>
           <HiOutlineThumbUp className="icon" />
           <h4>calidad garantizada</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores consectetur, nesciunt laudantium aspernatur commodi aliquam provident nemo, labore quam veritatis laboriosam inventore vel itaque dolorum, est magni accusantium quasi!</p>
+          <p>En nuestra florería, nos esforzamos por ofrecerte productos de la más alta calidad. Nos enorgullece seleccionar cuidadosamente cada flor y planta que llega a nuestras manos, asegurándonos de que estén frescas, vibrantes y en su mejor estado.</p>
         </Col>
         <Col>
           <GiChainedHeart className="icon" />
           <h4>apoyamos a nuestra comunidad</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam, earum laboriosam, veniam sapiente officiis quo, eveniet esse animi commodi iste dignissimos enim dolorum rem numquam sit cum. Sequi, pariatur!</p>
+          <p>En nuestra florería, no solo nos apasiona ofrecerte flores y arreglos excepcionales, sino que también buscamos formar una hermosa comunidad. Creemos que las flores tienen el poder de unir a las personas, inspirar emociones y transmitir mensajes de amor y aprecio.</p>
         </Col>
       </Row>
     </Container>
