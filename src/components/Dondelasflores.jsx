@@ -8,13 +8,13 @@ return (
     <Container>
         <h2 className='title'>De donde sacamos <div className='title2'>las flores</div></h2>
         <Row>
-            <Col>
-                <p className='texto'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <Col className='mobile-font-size'>
+                
                 <ul className='list'>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                    <li>Nuestra florería se abastece de una variedad de fuentes para garantizar la frescura y calidad de nuestras flores. </li>
+                    <li>Trabajamos estrechamente con productores locales y proveedores de confianza que cultivan flores en diferentes regiones.</li>
+                    <li>nuestros productores se dedican a cultivar flores de forma sostenible, utilizando prácticas respetuosas con el medio ambiente y sin el uso excesivo de pesticidas.</li>
+                    <li>Además, nos esforzamos por seleccionar flores de temporada que reflejen la belleza y la diversidad de cada época del año. </li>
                 </ul>
             </Col>
             <Col>
