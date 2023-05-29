@@ -19,3 +19,53 @@
 *{
     font-family: 'Cormorant', serif;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        font-size: 40px;
+    }
+    .titulo2{
+        font-size: 20px;
+    }
+    .icon{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titulo{
+        font-size: 30px;
+    }
+    .titulo2{
+        font-size: 15px;
+    }
+    .icon{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .titulo{
+        font-size: 25px;
+    }
+    .titulo2{
+        font-size: 15px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .titulo{
+        font-size: 20px;
+    }
+    .titulo2{
+        font-size: 15px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
