@@ -37,6 +37,8 @@
 .product_img {
     border-top-right-radius: 2em;
     border-top-left-radius: 2em;
+    width:250px; 
+    height: 200px;
 }
 
 .product_box {
@@ -60,4 +62,24 @@
     font-size: 18px;
     color: grey;
     text-decoration: line-through;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .product_img {
+        border-top-right-radius: 2em;
+        border-top-left-radius: 2em;
+        width:200px; 
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .product_img {
+        border-top-right-radius: 2em;
+        border-top-left-radius: 2em;
+        width:150px; 
+        height: 100px;
+    }
 }
